@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>For Eyza 💖</title>
+<title>For Neela 💖</title>
 
 <style>
 body{
@@ -57,7 +57,6 @@ button{
 
 <body>
 
-<!-- 🎵 Hidden Music Player -->
 <iframe
   id="music"
   width="0"
@@ -67,28 +66,26 @@ button{
   allow="autoplay">
 </iframe>
 
-<!-- Intro -->
 <div id="intro" class="screen">
-    <h1>Hlw CD khanbashi 💌</h1>
+    <h1>Hey Neela☺️</h1>
+   <!-- <h1>Hlw CD khanbashi 💌</h1>
     <h6>তোর জন্য ওয়েব ডিজাইন শেখা লাগলো...</h6>
-    <p>I have something special for you...</p>
+    <p>I have something special for you...</p>-->
     <button onclick="start()">Click Here 💖</button>
 </div>
 
-<!-- Loading -->
 <div id="loading" class="screen">
     <h1>Checking Our Love Compatibility... 💞</h1>
     <h2 id="percent">0%</h2>
 </div>
 
-<!-- Question -->
 <div id="question" class="screen">
-    <h1>Will you be my Valentine?! Papi 😁 💖</h1>
-    <button id="yes">Yes 💘</button>
-    <button id="no">No 😜</button>
+    <h1>Will you be my Valentine?! Papi 😁💖</h1>
+    <button id="yes">Yes 😍</button>
+    <button id="no">No! 😌</button>
+    <h6>Hints : The No! button is a Bit Say...🙈</h6>
 </div>
 
-<!-- Final -->
 <div id="final" class="screen">
     <h1>Yea! Good choice!! 😍💞</h1>
     <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="250">
@@ -98,7 +95,6 @@ button{
 
 function start(){
 
-    // 🎵 Play YouTube Shorts music after click
     document.getElementById("music").src =
     "https://www.youtube.com/embed/MC-zIlalJJE?autoplay=1&loop=1&playlist=MC-zIlalJJE";
 
