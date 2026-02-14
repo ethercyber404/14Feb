@@ -57,12 +57,16 @@ button{
 
 <body>
 
-<!-- 🎵 Background Music -->
-<iframe id="music" width="0" height="0"
-src="https:https://youtube.com/shorts/MC-zIlalJJE?si=80HSpbqePVGjf8-v
-frameborder="0"
-allow="autoplay">
+<iframe
+  width="360"
+  height="640"
+  src="https://www.youtube.com/embed/MC-zIlalJJE"
+  title="YouTube Shorts"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
 </iframe>
+
 
 <!-- Intro -->
 <div id="intro" class="screen">
