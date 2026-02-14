@@ -58,7 +58,7 @@ button{
 
 <!-- Intro -->
 <div id="intro" class="screen">
-    <h1>Hey Eyza 💌</h1>
+    <h1>Hey Kutte 💌</h1>
     <p>I have something special for you...</p>
     <button onclick="start()">Click Here 💖</button>
 </div>
@@ -71,14 +71,14 @@ button{
 
 <!-- Question -->
 <div id="question" class="screen">
-    <h1>Eyza, Will you be my Valentine? 💖</h1>
+    <h1>Will you be my Valentine?! Papi😁 💖</h1>
     <button id="yes">Yes 💘</button>
     <button id="no">No 😜</button>
 </div>
 
 <!-- Final -->
 <div id="final" class="screen">
-    <h1>Yea! Good choice Eyza 😍💞</h1>
+    <h1>Yea! Good choice!! 😍💞</h1>
     <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="250">
 </div>
 
