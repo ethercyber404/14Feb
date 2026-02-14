@@ -79,7 +79,7 @@ button{
 </div>
 
 <div id="question" class="screen">
-    <h1>Will you be my Valentine?! Papi 😁💖</h1>
+    <h1>Will you be my Valentine?!😁💖</h1>
     <button id="yes">Yes 😍</button>
     <button id="no">No! 😌</button>
     <h6>Hints : The No! button is a Bit Say...🙈</h6>
