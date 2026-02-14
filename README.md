@@ -45,6 +45,7 @@ button{
 .heart{
     position:absolute;
     animation: float 5s linear infinite;
+    z-index:999;
 }
 
 @keyframes float{
@@ -55,6 +56,13 @@ button{
 </head>
 
 <body>
+
+<!-- 🎵 Background Music -->
+<iframe id="music" width="0" height="0"
+src="https://www.youtube.com/embed/2Vv-BfVoq4g?autoplay=1&mute=1&loop=1&playlist=2Vv-BfVoq4g"
+frameborder="0"
+allow="autoplay">
+</iframe>
 
 <!-- Intro -->
 <div id="intro" class="screen">
@@ -85,6 +93,11 @@ button{
 <script>
 
 function start(){
+
+    // 🔊 Unmute music after user click
+    document.getElementById("music").src =
+    "https://www.youtube.com/embed/2Vv-BfVoq4g?autoplay=1&loop=1&playlist=2Vv-BfVoq4g";
+
     document.getElementById("intro").style.display="none";
     document.getElementById("loading").style.display="block";
 
@@ -110,8 +123,8 @@ let yesBtn = document.getElementById("yes");
 let size = 22;
 
 noBtn.addEventListener("mouseover", function(){
-    let x = Math.random()*(window.innerWidth-100);
-    let y = Math.random()*(window.innerHeight-50);
+    let x = Math.random()*(window.innerWidth-120);
+    let y = Math.random()*(window.innerHeight-120);
     noBtn.style.left = x+"px";
     noBtn.style.top = y+"px";
 
@@ -141,3 +154,4 @@ function launchHearts(){
 
 </body>
 </html>
+
