@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Iftikhar Flappy Game</title>
+<title>tHeEtHeR</title>
 <style>
 body{
     margin:0;
@@ -28,7 +28,7 @@ canvas.height = 600;
 
 // ===== IMAGE =====
 const birdImg = new Image();
-birdImg.src = "mybird.png"; // তোমার ছবি
+birdImg.src = "Alamin.png"; // তোমার ছবি
 
 // ===== SOUNDS =====
 const tapSound = new Audio("tap.mp3");
